@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>exercicio7</title>
+    <!-- 3 CDNs - React, React DOM e Babel -->
+    <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+    <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+    <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+</head>
+
+<body>
+    <div>
+         Escreva código com JSX, diretamente em uma página HTML, para inserir as tags de 
+        cabeçalhos (de "h1" a "h6").
+    </div>
+
+    <div id="root"></div>
+
+    <script type="text/babel">
+        
+        const meuElemento = (
+
+            <div>
+                <h6>Peras</h6>
+                <h5>Maças</h5>
+                <h4>Bananas</h4>
+                <h3>Uvas</h3>
+                <h2>Romas</h2>
+                <h1>Abacatis</h1>
+            </div>
+        
+        );
+        ReactDOM.render(meuElemento, document.getElementById('root'));
+    </script>
+</body>
+
+</html>

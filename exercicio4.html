@@ -1,0 +1,30 @@
+<!DOCTYPEhtml>
+    <html>
+
+    <head>
+        <metacharset="UTF-8" />
+        <title>exercicio 4</title>
+        <!--3 CDNs-React, ReactDOM e Babel -->
+        <script src="https://unpkg.com/react@17/umd/react.development.js"></script>
+        <script src="https://unpkg.com/react-dom@17/umd/react-dom.development.js"></script>
+        <script src="https://unpkg.com/babel-standalone@6/babel.min.js"></script>
+    </head>
+
+    <body>
+        <div>
+
+            Escreva código com JSX, diretamente em uma página HTML, para calcular a média
+            ponderada de três notas.
+            <script>
+                Somar = (media1, media2, media3,peso1,peso2,peso3) => {
+                    return "<br/>A media ponderada é:" + (media1*peso1)+(media2*peso2)+(media3*peso3)/(peso1+peso2+peso3);
+                }
+                document.write(Somar(2, 1, 2,2,1,3))
+            </script>
+
+        </div>
+
+
+    </body>
+
+    </html>
